@@ -3,7 +3,7 @@ A workshop on monads with C++14
 
 Meetup C/C++ de Madrid, January 2015
 
-During the workshop we will explore the basics of monadic theory in the context of C++14. Format is based on a bunch of 5-min exercies that the attendants are expected to complete along the way, with solutions provided and commented publicly.
+During the workshop we will explore the basics of monadic theory in the context of C++14. Format is based on a bunch of 5-min exercises that the attendants are expected to complete along the way, with solutions provided and commented publicly.
 
 ### Prerequisites
 * You are expected to be reasonably fluent with some post-2003 C++ stuff
