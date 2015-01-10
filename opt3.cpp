@@ -44,6 +44,6 @@ int main()
 {
   std::cout<<"ias(1.0)="<<ias(1.0)<<"\n";
   std::cout<<"ias(-1.0)="<<ias(-1.0)<<"\n";
-  std::cout<<"ias(2.0)="<<ias(-1.0)<<"\n";
-  std::cout<<"ias(0.0)="<<ias(-1.0)<<"\n";
+  std::cout<<"ias(2.0)="<<ias(2.0)<<"\n";
+  std::cout<<"ias(0.0)="<<ias(0.0)<<"\n";
 }

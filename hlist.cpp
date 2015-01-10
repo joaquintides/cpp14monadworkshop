@@ -70,8 +70,8 @@ int main()
   std::cout<<print(res)<<"\n";
 
   auto res2=
-    DO(x,(mreturn(0,1,2)),
-    DO(y,(mreturn(1,2.1,3)),
+    DO(x,mreturn(0,1,2),
+    DO(y,mreturn(1,2.1,3),
        mreturn(x+y)
     ));
   std::cout<<print(res2)<<"\n";
