@@ -46,5 +46,5 @@ int main()
   auto f=fac(5);
   std::cout<<"running f\n";
   auto r=f.run();
-  std::cout<<"fac(5)=="<<r<<"\n";
+  std::cout<<"fac(5)="<<r<<"\n";
 }
