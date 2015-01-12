@@ -58,25 +58,6 @@ auto operator>>=(const cont<T>& c, F f)
   return body;                   \
 })
 
-auto add(int x,int y)
-{
-  return mreturn<cont>(x+y);
-}
-
-auto square(int x)
-{
-  return mreturn<cont>(x*x);
-}
-
-auto pyth(int x,int y)
-{
-  return
-  DO(xx,square(x),
-  DO(yy,square(y),
-     add(xx,yy)
-  ));
-}
-
 auto fac(int n)
 {
   std::cout<<"constructing fac("<<n<<")\n";
