@@ -27,17 +27,24 @@ auto operator>>=(const cont<T>& c, F f)
   return cont<T>{c,f};
 }
 
+#define DO(var,monad,body)       \
+((monad)>>=[=](const auto& var){ \
+  return body;                   \
+})
+
 auto fac(int n)
 {
   std::cout<<"constructing fac("<<n<<")\n";
+
   if(n==0){
     return mreturn<cont>(1);
   }
   else{
-    return fac(n-1)>>=[=](int m){
-      std::cout<<"computing "<<m<<"*"<<n<<"\n";
-      return mreturn<cont>(m*n);
-    };
+    return
+      DO(m,fac(n-1),(
+         std::cout<<"computing "<<m<<"*"<<n<<"\n",
+         mreturn<cont>(m*n)
+      ));
   }
 }
 
