@@ -9,7 +9,7 @@ During the workshop we will explore the basics of monadic theory in the context 
 * You are expected to be reasonably fluent with some post-2003 C++ stuff
   * `auto`
   * `std::function`, lambda functions,  generic lambda functions
-  * function return type deduction, trailing return type declaration
+  * Function return type deduction, trailing return type declaration
   * Template template parameters (this is C++03, anyway)
   * `decltype`, `std::declval`
 * You are encouraged to pre-read about functional programming and monads
