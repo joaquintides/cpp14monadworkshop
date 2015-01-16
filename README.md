@@ -13,7 +13,7 @@ During the workshop we will explore the basics of monadic theory in the context 
   * Template template parameters (this is C++03, anyway)
   * `decltype`, `std::declval`
 * You are encouraged to pre-read about functional programming and monads
-  * For instance, go to https://github.com/joaquintides/usingstdcpp2014
+  * For instance, go to https://github.com/joaquintides/usingstdcpp2014 (in Spanish)
 *  You are required to bring a computer with
   *  Internet access (hopefully provided by host)
   * A C++14 compiler such as GCC 4.9 (`-std=c++1y`) with a recent Boost distro
